@@ -19,6 +19,24 @@
             </class>
         </classes>
     </test>
+    <test name="LoginWithvalidUsernameInvalidPassword">
+        <classes>
+            <class name="Automation.test.LoginPage">
+                <methods>
+                    <include name="LoginWithvalidUsernameInvalidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="LoginWithInvalidUsernamevalidPassword">
+        <classes>
+            <class name="Automation.test.LoginPage">
+                <methods>
+                    <include name="LoginWithInvalidUsernamevalidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>
 
 
