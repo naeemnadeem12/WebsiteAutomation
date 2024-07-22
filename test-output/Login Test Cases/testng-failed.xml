@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Test Cases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginWithValidUsernameValidPassword(failed)">
+    <classes>
+      <class name="Automation.test.LoginPage">
+        <methods>
+          <include name="LoginWithValidUsernameValidPassword"/>
+        </methods>
+      </class> <!-- Automation.test.LoginPage -->
+    </classes>
+  </test> <!-- LoginWithValidUsernameValidPassword(failed) -->
+  <test thread-count="5" name="LoginWithInvalidUsernameInvalidPassword(failed)">
+    <classes>
+      <class name="Automation.test.LoginPage">
+        <methods>
+          <include name="LoginWithInvalidUsernameInvalidPassword"/>
+        </methods>
+      </class> <!-- Automation.test.LoginPage -->
+    </classes>
+  </test> <!-- LoginWithInvalidUsernameInvalidPassword(failed) -->
+</suite> <!-- Failed suite [Login Test Cases] -->
