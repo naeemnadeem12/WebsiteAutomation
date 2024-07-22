@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login Test Cases">
+    <test name="LoginWithValidUsernameValidPassword">
+        <classes>
+            <class name="Automation.test.LoginPage">
+                <methods>
+                    <include name="LoginWithValidUsernameValidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="LoginWithInvalidUsernameInvalidPassword">
+        <classes>
+            <class name="Automation.test.LoginPage">
+                <methods>
+                    <include name="LoginWithInvalidUsernameInvalidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
